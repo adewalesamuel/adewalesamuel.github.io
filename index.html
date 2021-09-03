@@ -142,13 +142,14 @@
 			<h1 style="">Bonjour&nbsp;!</h1>
 			<p class="right">N’hésitez pas à me passer le bonjour, ça fait toujour plaisir. 
 			   Si vous avez des questions sur mon processus de travail, mes prix, et d’autres préoccupations, Envoyez moi un Message et ke vous répondrais dans l’heure qui suit. Merci !</p>
+			<p>Mail : <a href="mailto:samroberval@gmail.com">samroberval@gmail.com</a></p>
 		</div>
 		<div class="col-50 left form">
 			<form action="process-form.php" method="post">
 				<span id="e-msg" style="color: tomato;"></span>
-				<input id="mail" type="text" name="mail" required placeholder="Tapez votre E-mail">
-				<textarea id="message" name="message" rows="5" placeholder="Que voulez vous savoir ?"></textarea>
-				<button style="margin-top:20px; cursor: pointer;" type="submit" name="contact">ENVOYER</button>
+				<input id="mail" type="text" name="mail" required placeholder="Tapez votre E-mail" readonly>
+				<textarea id="message" name="message" rows="5" placeholder="Que voulez vous savoir ?" readonly></textarea>
+				<button style="margin-top:20px; cursor: pointer;" type="submit" name="contact" disabled>ENVOYER</button>
 			</form>
 		</div>
 	</section>
