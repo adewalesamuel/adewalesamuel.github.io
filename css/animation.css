@@ -1,0 +1,63 @@
+.animenu {
+	-webkit-animation-name :slide;
+	-webkit-animation-duration: 300ms;
+	-webkit-animation-timing-function: ease-in-out;
+	-webkit-animation-fill-mode: forwards;
+	-moz-animation-name :slide;
+	-moz-animation-duration: 300ms;
+	-moz-animation-timing-function: ease-in-out;
+	-moz-animation-fill-mode: forwards;
+	-ms-animation-name :slide;
+	-ms-animation-duration: 300ms;
+	-ms-animation-timing-function: ease-in-out;
+	-ms-animation-fill-mode: forwards;
+	animation-name :slide;
+	animation-duration: 300ms;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+}
+
+@keyframes slide {
+	0%{width: 0%}
+	100%{width: 100%;}
+}
+
+@-webkit-keyframes slide {
+	0%{width: 0%;}
+	100%{width: 100%;}
+}
+
+.anim-1 {
+	-webkit-animation-name :fadeUp;
+	-webkit-animation-duration: 500ms;
+	-webkit-animation-delay: 400ms;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-fill-mode: forwards;
+	-moz-animation-name :fadeUp;
+	-moz-animation-duration: 500ms;
+	-moz-animation-delay: 400ms;
+	-moz-animation-timing-function: linear;
+	-moz-animation-fill-mode: forwards;
+	-ms-animation-name :fadeUp;
+	-ms-animation-duration: 500ms;
+	-ms-animation-delay: 400ms;
+	-ms-animation-timing-function: linear;
+	-ms-animation-fill-mode: forwards;
+	animation-name :fadeUp;
+	animation-duration: 500ms;
+	animation-delay: 400ms;
+	animation-timing-function: linear;
+	animation-fill-mode: forwards;
+}
+
+@keyframes fadeUp {
+	0%{opacity: 0; top: 3%;}
+	100%{opacity: 1; top: 0%;}
+}
+
+@-webkit-keyframes fadeUp {
+	0%{opacity: 0; top: 3%;}
+	100%{opacity: 1; top: 0%;}
+}
+
+

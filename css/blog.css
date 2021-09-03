@@ -1,0 +1,265 @@
+.site-page {
+	display: block;
+	margin: auto;
+}
+
+h1, h2, h3 {
+	margin-top: 60px; 
+}
+
+h1, a {
+	color: #1F57B2;
+}
+
+h1 {
+	font-size: 42px;
+	font-weight: 600;
+	margin-bottom: 0px;
+}
+
+h2 {
+	font-size: 26px; 
+	margin-bottom: 30px;
+	font-weight: 700;
+}
+
+h3 {
+	font-size: 21px;
+	font-weight: 600;
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: "Open Sans", "Arial", sans-serif;
+}
+
+h2, h3, h4, h5, p, b, span {
+	color: #242930;
+}
+
+p, a, strong, main ul {
+	font-size: 18px;
+	font-family: "Montserrat", "Helvetica", sans-serif;
+	font-weight: 300;
+}
+
+strong {
+	font-weight: 500;
+	margin-top: 10px;
+	display: inline-block;
+}
+
+p, .blog-post ul {
+	margin-top: 5px;
+	margin-bottom: 25px;
+	line-height: 150%;
+}
+
+header span, header a {
+	font-family: "Muli", "Helvetica", sans-serif
+}
+
+header {
+	display: inline-block;
+	position: relative;
+	z-index: 1;
+	padding: 10px 30px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+header .content {
+	display: block;
+	margin: auto;
+	max-width: 1364px;
+}
+
+.blog-logo {
+	font-size: 18px;
+	font-weight: 200;
+}
+
+.blog-logo:first-letter {
+  font-family: "Adam", "Muli";
+  font-size: 50px;
+  font-weight: normal; 
+}
+
+.btn-2 {
+	width: 180px;
+	padding: 10px 0;
+	font-weight: 16px;
+} 
+
+main {
+	display: block;
+	margin: auto;
+	max-width: 1364px;
+	text-align: center;
+}
+
+.featured-img {
+	padding: 10px 2%;
+	margin-top: 20px;
+}
+
+.blog-post {
+	display: inline-block;
+	max-width: 800px;
+	padding: 0 20px;
+}
+
+.blog-post figure {
+	width: 100%;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.blog-post ul {
+	list-style-type: disc;
+	display: block;
+	margin-left: 30px;
+}
+
+.blog-post .content {
+	text-align: left;
+}
+
+.meta, .meta a {
+	font-family: "Montserrat", "Helvetica", sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	padding: 10px 0;
+	margin-bottom: 20px;
+}
+
+.socials h3, .socials ul, .socials .links {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+article .socials, .newsletter  {
+	padding: 75px 0;
+	border-bottom: 1px solid #EBEDED;
+}
+
+article .socials a {
+	color: white;
+	padding: 10px 0;
+	width: 40px;
+	text-align: center;
+	border-radius: 100px;
+	background-color: #1F57B2;
+	font-size: 20px;
+	margin-right: 5px;
+}
+
+.newsletter .content {
+	text-align: center;
+	width: 100%;
+	padding: 30px 10px;
+	background-color: #F2F3F7;
+}
+
+.newsletter h2 {
+	font-family: "Playfair Display", "Times New Roman", Times, serif;
+	font-weight: 700;
+	margin: 0;
+}
+
+.newsletter p {
+	font-size: 14px;
+	color: #77787A;
+	margin: 5px 0;
+} 
+
+.newsletter form {
+	padding: 30px 0;
+	max-width: 600px;
+	display: inline-block;
+	position: relative;
+}
+
+.newsletter input, .newsletter button {
+	margin: -3px;
+}
+
+.newsletter input {
+	background-color: white;
+	border: none;
+	width: 300px;
+	box-shadow: none;
+	border-radius: 0;
+	padding: 7px;
+	font-size: 16px;
+}
+
+.newsletter button {
+	color: #FFCC33;
+	padding: 3px 0;
+	width: 180px;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 900px){
+	header {
+	padding: 10px;
+	}
+
+	.blog-post {
+	max-width: 600px;
+	}
+
+	h1, h2, h3 {
+	margin-top: 40px; 
+	}
+
+	h1 {
+		font-size: 32px;
+		font-weight: 600;
+		margin-bottom: 0px;
+	}
+
+	h2 {
+		font-size: 16px; 
+		font-weight: 700;
+	}
+
+	h3 {
+		font-size: 14px;
+		font-weight: 600;
+		margin: 0;
+	}
+
+	p, a  {
+		font-size: 14px;
+	}
+
+	p {
+		margin-top: 15px;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	h1 {
+		font-size: 25px;
+	}
+
+	.meta, .meta a {
+	font-size: 11px;
+	margin-bottom: 10px;
+
+	}
+
+	article .socials, .newsletter  {
+	padding: 35px 0;
+	border-bottom: 1px solid #EBEDED;
+	}
+
+	.newsletter p {
+	font-size: 11px;
+	} 
+
+	.newsletter button {
+		margin-top: 10px;
+	}
+}
